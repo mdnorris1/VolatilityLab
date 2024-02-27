@@ -57,4 +57,13 @@ Using the dlllist command helped look into the TrustMe.exe process a bit further
 <img src="assets/dll list.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
+<br/>
+<img src="assets/dll list2.png" height="80%" width="80%" alt="ifconfig command"/>
+<br />
+
+Here you can see the dll's associated with the TrustMe process.
+
+We can also see the command line invocation of this process. This is great as it tells us any flags used to start the process and it can tell us where on the system it was executed from.
+
+Finally, let’s look at the easy button with malfind. This module will look at the processes for any suspicious activities.
 Hope you enjoyed the walkthrough of the project!
