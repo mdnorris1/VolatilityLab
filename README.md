@@ -63,7 +63,18 @@ Using the dlllist command helped look into the TrustMe.exe process a bit further
 
 Here you can see the dll's associated with the TrustMe process.
 
-We can also see the command line invocation of this process. This is great as it tells us any flags used to start the process and it can tell us where on the system it was executed from.
+We can also see the command line in this process which is useful as it can tell us where on the system it was executed from.
 
-Finally, let’s look at the easy button with malfind. This module will look at the processes for any suspicious activities.
-Hope you enjoyed the walkthrough of the project!
+Finally, let’s look at the use of malfind. This module will look at the processes for any suspicious activities, looking for characteristics used by malware.
+
+<br/>
+<img src="assets/malfind.png" height="80%" width="80%" alt="ifconfig command"/>
+<br />
+
+We found an executable with Read and Write when such a combination doesn't usually need to occur for everyday user activity.
+
+<br/>
+<img src="assets/malfind2.png" height="80%" width="80%" alt="ifconfig command"/>
+<br />
+
+Hope you enjoyed the project!
