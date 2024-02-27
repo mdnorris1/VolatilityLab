@@ -30,16 +30,10 @@ Next, we needed to see the processes / process IDs so ran this code:
 <img src="assets/processes.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
-You should see the main Wireshark screen change
-
-Then, close the Conversations window.
-
-Notice the following in the filter bar
-
-`ip.addr==68.183.138.51 && ip.addr==192.168.99.52`
+The cmd.exe stands out as being unusual for every day user interaction.
 
 <br/>
-<img src="https://github.com/mdnorris1/WiresharkLab/blob/main/assets/css/filterbar5.png" height="80%" width="80%" alt="ifconfig command"/>
+<img src="assets/cmd.exe.png" height="100%" width="100%" alt="ifconfig command"/>
 <br />
 
 This is saying:
