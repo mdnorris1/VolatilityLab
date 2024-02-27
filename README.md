@@ -51,7 +51,7 @@ Also, the parent process for TrustMe was Explorer.exe. This means it was invoked
 <img src="assets/parent processes.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
-
+Using the dlllist command helped look into the TrustMe.exe process a bit further:
 
 <br/>
 <img src="assets/dll list.png" height="80%" width="80%" alt="ifconfig command"/>
