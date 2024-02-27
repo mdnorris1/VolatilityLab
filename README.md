@@ -13,10 +13,9 @@ cd volatility3-1.0.0/
 
 We used a netscan command: 
 
-python3 vol.py -f /mnt/c/tools/volatility_2.6_win64_standalone/memdump.vmem windows.netscan
 
 <br/>
-<img src="https://github.com/mdnorris1/WiresharkLab/blob/main/assets/css/conversations2.png" height="80%" width="80%" alt="ifconfig command"/>
+<img src="assets/1a.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
 Please select IPv4:
