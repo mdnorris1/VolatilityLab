@@ -58,7 +58,7 @@ Using the dlllist command helped look into the TrustMe.exe process a bit further
 <br />
 
 <br/>
-<img src="assets/dll list2.png" height="80%" width="80%" alt="ifconfig command"/>
+<img src="assets/dll list 2.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
 Here you can see the dll's associated with the TrustMe process.
