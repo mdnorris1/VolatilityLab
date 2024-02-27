@@ -18,20 +18,16 @@ We used a netscan command:
 <img src="assets/1a.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
-Please select IPv4:
-
-Then click on the top of the packets column twice:
+We found a computer had an established connection to another system and this was unusual.
 
 <br/>
-<img src="https://github.com/mdnorris1/WiresharkLab/blob/main/assets/css/packets3.png" height="80%" width="80%" alt="ifconfig command"/>
+<img src="assets/connection.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
-This gives us a breakdown of who was chatting with what system the most.  Click it again and it will sort the opposite direction and show you the least:
-
-Really want to know what those systems were saying to each other?  Right click on a conversation and select Apply as Filter > Selected > A<->B
+Next, we needed to see the processes / process IDs so ran this code:
 
 <br/>
-<img src="https://github.com/mdnorris1/WiresharkLab/blob/main/assets/css/filter4.png" height="80%" width="80%" alt="ifconfig command"/>
+<img src="assets/processes.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
 You should see the main Wireshark screen change
